@@ -1,5 +1,10 @@
 import React from "react";
 
-return(
-    <main></main>
-)
+const Main = ()=>
+{
+    return(
+        <main></main>
+    )
+} 
+
+export default Main;
