@@ -1,16 +1,21 @@
 import React from "react";
 
-const Nav = () =>{
+
+const Nav = () => {
     return(
         <nav>
-            <ul class="navbar">
-                <li a href="index.html">Home</li>
-                <li a href="menu.html">Menu</li>
-                <li a href="book-a-table.html">Book a Table</li>
+           
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Menu</a></li>
+                <li><a>Reservations</a></li>
+                <li><a>Order Online</a></li>
+                <li><a>Login</a></li>
+
             </ul>
         </nav>
     )
 }
-
 
 export default Nav;
